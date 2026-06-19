@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Processed intermediate files
+outputs/processed/
+
+# Raw Kaggle data
+data/train.csv
+data/test.csv
+data/sample_submission.csv
+
+# Optional model files
+*.pkl
+*.joblib
